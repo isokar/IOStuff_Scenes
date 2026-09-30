@@ -1,0 +1,24 @@
+{
+  "manifestVersion": 1,
+  "id": "iostuff.cathedral",
+  "name": "Cathedral",
+  "version": "0.1.0",
+  "requirements": [
+    { "capability": "LedStrip", "count": 1 }
+  ],
+  "actions": [
+    {
+      "id": "scene",
+      "name": "Scène",
+      "type": "select",
+      "options": [
+        { "id": "rise", "name": "Montée de la lumière" },
+        { "id": "silhouette", "name": "Silhouette des tours" },
+        { "id": "temperatures", "name": "Deux températures" },
+        { "id": "vitraux", "name": "Vitraux" },
+        { "id": "breath", "name": "Respiration" }
+      ]
+    },
+    { "id": "launch", "name": "Illumination", "type": "toggle" }
+  ]
+}
