@@ -1,0 +1,13 @@
+{
+  "manifestVersion": 1,
+  "id": "iostuff.artemis",
+  "name": "Artemis",
+  "version": "0.1.0",
+  "requirements": [
+    { "capability": "LedStrip", "count": 1 },
+    { "capability": "DigitalOutput", "count": 1 }
+  ],
+  "actions": [
+    { "id": "launch", "name": "Lancement", "type": "toggle" }
+  ]
+}

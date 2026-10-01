@@ -1,0 +1,48 @@
+{
+  "manifestVersion": 1,
+  "id": "iostuff.aquarium",
+  "name": "Aquarium",
+  "version": "0.1.0",
+  "requirements": [
+    { "capability": "LedStrip", "count": 1 }
+  ],
+  "actions": [
+    {
+      "id": "mode",
+      "name": "Mode",
+      "type": "select",
+      "options": [
+        { "id": "auto", "name": "Auto" },
+        { "id": "on", "name": "Allumer" },
+        { "id": "off", "name": "Éteindre" }
+      ]
+    },
+    {
+      "id": "weather",
+      "name": "Météo",
+      "type": "select",
+      "options": [
+        { "id": "clear", "name": "Clair" },
+        { "id": "veiled", "name": "Voilé" },
+        { "id": "cloudy", "name": "Nuageux" },
+        { "id": "auto", "name": "Auto" }
+      ]
+    },
+    {
+      "id": "timezone",
+      "name": "Fuseau",
+      "type": "select",
+      "options": [
+        { "id": "paris", "name": "Europe/Paris" },
+        { "id": "london", "name": "Europe/London" },
+        { "id": "utc", "name": "UTC" },
+        { "id": "eastern", "name": "US/Eastern" },
+        { "id": "pacific", "name": "US/Pacific" },
+        { "id": "tokyo", "name": "Asia/Tokyo" }
+      ]
+    },
+    { "id": "sunrise", "name": "Lever", "type": "range", "min": 360, "max": 630, "step": 30 },
+    { "id": "sunset", "name": "Coucher", "type": "range", "min": 1080, "max": 1410, "step": 30 },
+    { "id": "clock", "name": "Heure simulée", "type": "range", "min": -1, "max": 23, "step": 1 }
+  ]
+}
