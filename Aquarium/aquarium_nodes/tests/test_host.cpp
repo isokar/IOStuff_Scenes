@@ -201,7 +201,7 @@ static void testContract()
     CHECK(rgb != 0 && rgb->rgbStream.present == 1 && rgb->eth.present == 1);
     CHECK(iostuff_profile_cap(rgb, "relay") == 0);
     CHECK(iostuff_build_json(device, sizeof(device), "esp32-aabbccddeeff", "Aquarium", "0.1.0", "ignored",
-                             rgb, 14, "iostuff.aquarium", "0.1.0") == 1);
+                             rgb, 14, "iostuff.aquarium", "0.1.0", "0.1.0") == 1);
     CHECK(strstr(device, "\"model\":\"iostuff.board.rgb\"") != 0);
     CHECK(strstr(device, "\"id\":\"strip\"") != 0);
     CHECK(strstr(device, "\"type\":\"led-strip\"") != 0);
