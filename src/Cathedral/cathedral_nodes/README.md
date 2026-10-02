@@ -15,7 +15,7 @@ Compilation N8R8, sans flasher ici :
 ```text
 arduino-cli compile --fqbn esp32:esp32:esp32s3:FlashSize=8M,FlashMode=qio,PSRAM=opi,PartitionScheme=default_8MB ^
   --library <chemin IOStuff_Nodes> ^
-  Cathedral/cathedral_nodes
+  src/Cathedral/cathedral_nodes
 ```
 
 Le manifeste est `scene_manifest.json`.

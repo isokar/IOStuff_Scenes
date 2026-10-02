@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "firmwares": [
+    {
+      "hardware": ["iostuff.board.rgb"],
+      "sceneId": "iostuff.aquarium",
+      "sceneName": "Aquarium",
+      "sceneVersion": "0.1.2",
+      "nodesVersion": "0.1.0",
+      "url": "https://github.com/isokar/IOStuff_Scenes/releases/download/aquarium-0.1.2/iostuff.aquarium-0.1.2-nodes-0.1.0.bin",
+      "size": 1107792,
+      "sha256": "A5EC1E2D88E1D52E7121E78271D71B3F7B6B997BEB3F8415EB3DDEEF96796FFF",
+      "minCoreVersion": "0.3.2",
+      "configSchema": 1,
+      "notes": "Image validée hardware avec Core 0.3.2. Profil NVS conservé."
+    }
+  ]
+}
